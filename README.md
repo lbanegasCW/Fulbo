@@ -1,9 +1,9 @@
-# Fulbo
-
 <!-- Reemplaza la imagen de abajo por tu logo principal -->
 <p align="center">
-  <img src="docs/screenshots/logo-fulbo.png" alt="Fulbo" width="720">
+  <img src="docs/logo.png" alt="Fulbo" width="300">
 </p>
+
+# Fulbo
 
 PWA para organizar torneos de FC entre amigos, pensada para correr en hosting tradicional con PHP + MySQL.
 
@@ -22,31 +22,14 @@ Credenciales del seed:
 
 ## Capturas
 
-Espacio listo para screenshots del proyecto.
-
-Sugerencia de estructura:
-
-```text
-docs/
-  screenshots/
-    dashboard-mobile.png
-    torneos-mobile.png
-    torneo-detalle-mobile.png
-    ranking-mobile.png
-    admin-usuarios-desktop.png
-    admin-torneo-desktop.png
-```
-
-Plantilla para completar:
-
 | Vista | Captura |
 | --- | --- |
-| Dashboard | ![Dashboard](docs/screenshots/dashboard-mobile.png) |
-| Torneos | ![Torneos](docs/screenshots/torneos-mobile.png) |
-| Detalle de torneo | ![Detalle](docs/screenshots/torneo-detalle-mobile.png) |
-| Ranking | ![Ranking](docs/screenshots/ranking-mobile.png) |
-| Admin usuarios | ![Admin usuarios](docs/screenshots/admin-usuarios-desktop.png) |
-| Admin torneo | ![Admin torneo](docs/screenshots/admin-torneo-desktop.png) |
+| Dashboard | ![Dashboard](docs/screenshots/dashboard.jpg) |
+| Torneos | ![Torneos](docs/screenshots/torneos.jpg) |
+| Detalle de torneo | ![Detalle](docs/screenshots/detalle_torneo.jpg) |
+| Ranking | ![Ranking](docs/screenshots/ranking.jpg) |
+| Admin usuarios | ![Admin usuarios](docs/screenshots/admin_usuarios.jpg) |
+| Admin torneo | ![Admin torneo](docs/screenshots/admin_torneo.jpg) |
 
 ## Stack
 
@@ -108,17 +91,7 @@ database/
 
 1. Subir codigo completo.
 2. Configurar `.env` productivo.
-3. Si ya tenias una version en linea, correr migraciones incrementales:
-   - `database/migration_20260317_prod.sql`
-   - `database/migration_20260317_drop_partidos_fecha_hora.sql`
-4. Verificar permisos y reglas de `.htaccess`.
-
-Ejemplo para ejecutar migraciones:
-
-```bash
-mysql -u TU_USUARIO -p TU_BASE < database/migration_20260317_prod.sql
-mysql -u TU_USUARIO -p TU_BASE < database/migration_20260317_drop_partidos_fecha_hora.sql
-```
+3. Verificar permisos y reglas de `.htaccess`.
 
 ## Modulos principales
 
