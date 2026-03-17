@@ -1,4 +1,4 @@
-const CACHE_NAME = 'fulbo-cache-v6-20260317-logo-refresh';
+const CACHE_NAME = 'fulbo-cache-v7-20260317-maskable';
 const BASE_PATH = new URL(self.registration.scope).pathname.replace(/\/$/, '');
 const OFFLINE_URL = `${BASE_PATH}/pwa/offline.html`;
 
@@ -11,7 +11,8 @@ const ASSETS = [
     `${BASE_PATH}/assets/img/fulbo-logo.svg`,
     `${BASE_PATH}/assets/img/logo_fulbo.png`,
     `${BASE_PATH}/assets/img/logo_fulbo-192.png?v=20260317-icon3`,
-    `${BASE_PATH}/assets/img/logo_fulbo-512.png?v=20260317-icon3`,
+    `${BASE_PATH}/assets/img/logo_fulbo-512.png?v=20260317-icon4`,
+    `${BASE_PATH}/assets/img/logo_fulbo-512-maskable.png?v=20260317-icon4`,
     OFFLINE_URL
 ];
 

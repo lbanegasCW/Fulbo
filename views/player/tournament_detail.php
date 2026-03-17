@@ -136,7 +136,7 @@ $scheduledLabel = $scheduledAt !== null
                                         <label class="goal-picker">
                                             <span><?= e($match['local_nombre']) ?></span>
                                             <select name="goles_local" required>
-                                                <?php for ($i = 0; $i <= 15; $i++): ?>
+                                                <?php for ($i = 0; $i <= 9; $i++): ?>
                                                     <option value="<?= $i ?>" <?= ((string) $match['goles_local'] === (string) $i) ? 'selected' : '' ?>><?= $i ?></option>
                                                 <?php endfor; ?>
                                             </select>
@@ -145,7 +145,7 @@ $scheduledLabel = $scheduledAt !== null
                                         <label class="goal-picker">
                                             <span><?= e($match['visitante_nombre']) ?></span>
                                             <select name="goles_visitante" required>
-                                                <?php for ($i = 0; $i <= 15; $i++): ?>
+                                                <?php for ($i = 0; $i <= 9; $i++): ?>
                                                     <option value="<?= $i ?>" <?= ((string) $match['goles_visitante'] === (string) $i) ? 'selected' : '' ?>><?= $i ?></option>
                                                 <?php endfor; ?>
                                             </select>

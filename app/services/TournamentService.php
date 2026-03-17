@@ -252,6 +252,10 @@ class TournamentService
             throw new RuntimeException('No puedes cargar resultados en este partido.');
         }
 
+        if ($goalsHome < 0 || $goalsAway < 0 || $goalsHome > 9 || $goalsAway > 9) {
+            throw new RuntimeException('Los goles deben estar entre 0 y 9.');
+        }
+
         $this->tournaments->updateMatchResult($matchId, $goalsHome, $goalsAway, $currentUserId);
     }
 

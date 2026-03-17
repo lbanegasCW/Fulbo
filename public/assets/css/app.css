@@ -160,7 +160,7 @@ section.card + section.card { margin-top: calc(var(--space-4) - var(--space-1));
 
 .menu-logo img {
     width: auto;
-    height: 134px;
+    height: 117px;
     object-fit: contain;
     filter: drop-shadow(0 4px 9px rgba(38, 67, 98, .22));
 }
@@ -921,7 +921,7 @@ details > summary::marker {
         margin-top: -10px;
         margin-bottom: -10px;
     }
-    .menu-logo img { height: 132px; }
+    .menu-logo img { height: 115px; }
     .menu-side { gap: .2rem; }
     .menu-side,
     .menu-side-right { justify-content: center; }
@@ -977,7 +977,7 @@ details > summary::marker {
         margin-top: -8px;
         margin-bottom: -8px;
     }
-    .menu-logo img { height: 118px; }
+    .menu-logo img { height: 103px; }
 
     .guest-menu .nav-icon-link {
         min-width: 52px;
@@ -1025,5 +1025,5 @@ details > summary::marker {
         width: 74px;
         height: 74px;
     }
-    .menu-logo img { height: 102px; }
+    .menu-logo img { height: 89px; }
 }
