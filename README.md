@@ -1,5 +1,10 @@
 # Fulbo
 
+<!-- Reemplaza la imagen de abajo por tu logo principal -->
+<p align="center">
+  <img src="docs/screenshots/logo-fulbo.png" alt="Fulbo" width="720">
+</p>
+
 PWA para organizar torneos de FC entre amigos, pensada para correr en hosting tradicional con PHP + MySQL.
 
 - Mobile-first (instalable en iOS/Android)
@@ -87,8 +92,6 @@ routes/
 database/
   schema.sql
   seed.sql
-  migration_20260317_prod.sql
-  migration_20260317_drop_partidos_fecha_hora.sql
 ```
 
 ## Instalacion local
