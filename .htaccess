@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteRule ^$ public/index.php [L]
+RewriteRule ^(assets|pwa)/(.*)$ public/$1/$2 [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ public/index.php [QSA,L]
